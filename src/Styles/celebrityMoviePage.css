@@ -1,0 +1,53 @@
+.movie-person-page{
+    margin-top: 150px;
+}
+
+.movie-person-page-body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-movie-body h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A2E1F5;
+    font-size: 50px;
+}
+
+.movie-img-with-desc{
+    width:1200px;
+    display: flex;
+    justify-content: space-between;
+    text-wrap: wrap;
+    text-align: justify;
+    font-size: 19px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.movie-img-with-desc img{
+    height:400px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px rgba(43, 43, 43, 0.145);
+    margin-right: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.348);
+    object-fit: cover;
+}
+
+.desc-box{
+    height: 400px;
+}
+
+.movie-img-with-desc p{
+    max-width: 880px;
+    background-color: rgba(73, 96, 104, 0.681);
+    padding: 15px;
+    border-radius: 15px;
+    color: rgba(255, 255, 255, 0.688);
+}
+

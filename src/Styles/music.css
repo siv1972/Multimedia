@@ -1,0 +1,254 @@
+.music-person-page{
+    margin-top: 135px;
+}
+
+.music-person-page-body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-music-body h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A2E1F5;
+    font-size: 50px;
+}
+
+.img-with-desc{
+    width:1350px;
+    background-color: #122c34b1;
+    display: flex;
+    justify-content: space-between;
+    text-wrap: wrap;
+    text-align: justify;
+    font-size: 19px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.img-with-desc img{
+    width: 360px;
+    height: 530px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.img-with-desc p{
+    font-size: 15px;
+    margin-top: 20px;
+    max-width: 910px;
+    background-color: rgba(73, 96, 104, 0.681);
+    padding: 15px;
+    border-radius: 15px;
+    color: rgba(255, 255, 255, 0.688);
+}
+
+.total-audio-box{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.total-audio-box audio{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.audio-head h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.total-songs{
+    height: 528px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.songs{
+    display: flex;
+    height: 220px;
+    width: 881px;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 15px;
+    overflow-x:scroll;
+    background-color: #1E294D;
+}
+
+.songs::-webkit-scrollbar {
+    display: none;
+}
+
+.songs audio{
+    min-height: 60px;
+    min-width: 880px;
+    outline-offset: none;
+    outline-width: 0px;
+    outline: none;
+    border: 0px;
+    border-width:0px;
+    box-sizing: 0px;
+}
+
+audio {
+    height: 50px;
+    width: 100%; /* Set the width as needed */
+    background-color: transparent; /* Background color of the audio player */
+    outline-offset: none;
+    outline-width: 0px;
+    outline: none;
+    border: 0px;
+    border-width:0px;
+    box-sizing: 0px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Customize the control elements (requires webkit prefix for Safari) */
+audio::-webkit-media-controls-panel {
+    outline-offset: none;
+    outline-width: 0px;
+    outline: none;
+    outline-style: none;
+    outline: 0px;
+    border-color: transparent;
+    outline-color: transparent;
+    border: 0px;
+    border-width:0px;
+    box-sizing: 0px;
+    background-color: #1E294D; /* Background color of the control panel */
+    transition: background-color 0.3s ease; /* Transition for background color */
+}
+
+audio::-webkit-media-controls-panel:hover {
+    background-color: #253B5B; /* Darker background on hover */
+}
+
+audio::-webkit-media-controls-play-button {
+    border-radius: 50%;
+    background-color: #f0f0f0; /* Background color of the play button */
+    color: #1E294D; /* Play button color */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition for hover */
+}
+
+audio::-webkit-media-controls-play-button:hover {
+    background-color: #1E294D; /* Change background on hover */
+    color: #f0f0f0; /* Change color on hover */
+}
+
+audio::-webkit-media-controls-volume-slider {
+    background-color: #1E294D; /* Volume slider background */
+    transition: background-color 0.3s ease; /* Transition for background */
+}
+
+audio::-webkit-media-controls-volume-slider:hover {
+    background-color: #253B5B; /* Darker background on hover */
+}
+
+audio::-webkit-media-controls-mute-button {
+    border-radius: 50%;
+    background-color: #f0f0f0; /* Mute button background */
+    color: #1E294D; /* Mute button color */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition for hover */
+}
+
+audio::-webkit-media-controls-mute-button:hover {
+    background-color: #1E294D; /* Change background on hover */
+    color: #f0f0f0; /* Change color on hover */
+}
+
+/* Firefox-specific styles */
+audio::-moz-media-controls {
+    outline-offset: none;
+    outline-width: 0px;
+    outline: none;
+    border: 0px;
+    border-width:0px;
+    box-sizing: 0px;
+    background-color: #1E294D; /* Background color for Firefox */
+}
+
+/* General styles for the audio controls */
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    color: #1E294D; /* Current time and remaining time color */
+    transition: color 0.3s ease; /* Transition for color */
+}
+
+audio:hover::-webkit-media-controls-current-time-display,
+audio:hover::-webkit-media-controls-time-remaining-display {
+    color: #f0f0f0; /* Change color on hover */
+}
+
+audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb {
+    background: #1E294D; /* Volume slider thumb color */
+    transition: background 0.3s ease; /* Transition for thumb color */
+}
+
+audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb:hover {
+    background: #253B5B; /* Darker thumb color on hover */
+}
+
+
+/*---------------------------------------------*/
+
+.song-name{
+    margin-left: 20px;
+    font-weight: bolder;
+    color: #1e294d;
+}
+
+
+.audio-player {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #A2E1F5;
+  }
+  
+  .audio-player .song-name {
+    font-size: 16px;
+    color: #333;
+    flex-grow: 1;
+  }
+  
+  .audio-player button {
+    width: 45px;
+    background-color: #1e294d;
+    border: none;
+    color: #A2E1F5; /* Dark Slate Blue */
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    transition: color 0.3s ease;
+  }
+  
+  .audio-player button:hover {
+    color: #A2E1F5;
+  }
+  
+  .audio-player button:focus {
+    outline: none;
+  }
+  
+  

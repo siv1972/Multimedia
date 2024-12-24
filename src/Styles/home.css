@@ -1,0 +1,38 @@
+.spotstar-home h1{
+    text-align: center;
+}
+
+.spot-total{
+    margin-top: 150px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.spot-total h1{
+    font-size: 50px;
+    color: #A2E1F5;
+}
+
+.spot-total p{
+    color: #A2E1F5;
+    text-align: center;
+    font-size: 18px;
+}
+
+.spot-home-div1{
+    border-radius: 15px;
+    width: 1000px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.spot-home-div1 img{
+    height: 300px;
+    border-radius: 15px;
+}
+

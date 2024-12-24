@@ -1,0 +1,65 @@
+.movie-img img{
+    width: 360px;
+    height: 530px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.video-totalbox{
+    margin-top: 85px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.video-person-page{
+    background-color: #122c34b1;
+    margin-top: 50px;
+    display: flex;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    justify-content: space-around;
+}
+
+.total-desc-yt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.total-desc-yt iframe{
+    border-radius: 15px;
+}
+
+.movie-desc{
+    width: 900px;
+    height: 130px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.movie-desc p{
+    background-color: rgba(73, 96, 104, 0.681);
+    padding: 15px;
+    border-radius: 15px;
+    color: rgba(255, 255, 255, 0.688);
+    font-size: 15px;
+}
+
+
+
+
+
+.movie-img{
+    width: fit-content;
+}
+
+
+

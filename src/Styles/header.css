@@ -1,0 +1,79 @@
+.welcome-outer{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logout-btn{
+    display: inline-block;
+    margin-top: 6px;
+    margin-right: 20px;
+    margin-left: 15px;
+    height: 34px;
+    padding: 0px 10px 0px 10px;
+
+    background-color: #1E294D;
+    color: #A2E1F5;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    border-style: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.total-header-box{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.header-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1E294D;
+    height: 80px;
+    color: #A2E1F5;
+    font-size: 30px;
+}
+
+.navbar{
+    background-color: #A2E1F5;
+    height: 45px;
+    display: flex;
+    justify-content: end;
+}
+
+.navbar a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 25px;
+    cursor: pointer;
+    color: #1E294D;
+}
+
+.navbar{
+    font-size: 50px;
+}
+
+.navbar a:hover{
+    cursor: pointer;
+}
+
+svg{
+    text-align: left;
+}
+
+.go-back-box{
+    position: fixed;
+    top:3%;
+    left: 2%;
+    cursor: pointer;
+}
